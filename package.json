@@ -1,0 +1,30 @@
+{
+  "name": "tpi",
+  "version": "1.0.0",
+  "description": "TPI - Fotaza - 2026",
+  "homepage": "https://github.com/JuanCRodriguez0/TPI#readme",
+  "bugs": {
+    "url": "https://github.com/JuanCRodriguez0/TPI/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanCRodriguez0/TPI.git"
+  },
+  "license": "ISC",
+  "author": "Juan Cruz Rodriguez",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "pg": "^8.21.0",
+    "pg-hstore": "^2.3.4",
+    "pug": "^3.0.4",
+    "sequelize": "^6.37.8"
+  }
+}
